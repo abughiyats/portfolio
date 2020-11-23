@@ -50,8 +50,8 @@ sr.reveal('.skills__text',{});
 sr.reveal('.skills__data',{interval: 200}); 
 sr.reveal('.skills__img',{delay: 600});
 
-/*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+/*SCROLL project*/
+sr.reveal('.project__img',{interval: 200}); 
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
