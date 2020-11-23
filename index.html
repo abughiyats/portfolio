@@ -69,7 +69,7 @@
                         <h2 class="about__subtitle">Angga Prabowo <span>(Abu Ghiyats)</span></h2>
                         <p class="about__text">Menguasai Bahasa pemrograman PHP (OOP, MVC dan Framework Codeigniter) dan Javascript dan beberapa tools graphic design yaitu Adobe Photoshop dan Corel Draw. Saat ini terus memperdalam dan mempelajari PHP, Javascript, Rest API, GIT dan Flutter dan hal-hal yang berkaitan dengan Software Development. Saya senang dan terbuka untuk mempelajari sesuatu yang baru.</p>
                         
-                        <a href="#contact" class="button">Contact</a>
+                        <a href="assets/docs/cv_angga_221120.pdf" class="button">Curriculum Vitae</a>
                     </div>                                   
                 </div>
             </section>
@@ -159,11 +159,12 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
+                    <form class="contact__form" method="post" action="contact.php">
+                        <input name="name" type="text" placeholder="Name" class="contact__input" required>
+                        <input name="subject" type="text" placeholder="Subject" class="contact__input">
+                        <input name="email" type="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" placeholder="Message" required></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
